@@ -1,0 +1,57 @@
+.adminpanel-form {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    color:#2ae149;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    color: steelblue;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/
+    padding: 5px;
+}
+
+.addcom {
+    margin: 5px;
+    outline: none;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/
+    padding: 5px;
+}
+
+.btn-admin {
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    color: steelblue;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 5px;
+}
+
+.btn-admin:focus {
+    outline: none;
+}
+
+.btn-admin:hover {
+    background-color: steelblue;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+label {
+     margin: 5px;
+    outline: none;
+    width: 300px;
+    padding: 5px;
+}
